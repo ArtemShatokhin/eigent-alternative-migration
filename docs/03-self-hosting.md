@@ -4,7 +4,7 @@ Kortix is open source and self-host is free, so the whole platform runs on a Lin
 
 ## What the stack is
 
-One Docker Compose stack holds the frontend, the API, the LLM gateway, and the Supabase distribution. Agent sessions do not run on that stack. They run on a separate sandbox provider, with Daytona as the default and Platinum and E2B also supported. Keep that split in mind, because self-hosting the platform and running a session are two different machines.
+One Docker Compose stack holds the frontend, the API, the LLM gateway, and the Supabase distribution. Agent sessions do not run on that stack. They run on a separate sandbox provider, with Platinum as the default and Daytona as a legacy fallback. Keep that split in mind, because self-hosting the platform and running a session are two different machines.
 
 ## The one-shot bootstrap
 
